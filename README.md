@@ -88,3 +88,66 @@ All analysis steps are documented inside the notebook, including:
 - Segmentation logic
 - Visualization
 - Insight derivation
+
+
+
+
+  # Executive Summary:
+
+## Methodology
+
+This analysis investigates how Bitcoin market sentiment (Fear/Greed Index) interacts with trader behavior and profitability on Hyperliquid.
+
+The workflow consisted of:
+
+1. **Data Preparation**
+   - Loaded sentiment and trade datasets.
+   - Checked row counts, missing values, and duplicates.
+   - Converted timestamps to daily format.
+   - Merged datasets on date to align each trade with daily sentiment.
+   - Created key metrics:
+     - Daily PnL per account
+     - Win rate
+     - Average trade size (USD)
+     - Trade frequency
+     - Long/Short ratio
+     - Trader-level aggregates for segmentation
+
+2. **Behavioral Segmentation**
+   Traders were segmented into:
+   - Frequent vs Infrequent
+   - Consistent vs Volatile
+   - High vs Low Exposure
+
+3. **Regime Comparison**
+   Performance and behavior were compared across Fear, Greed, and Neutral sentiment regimes using aggregated statistics and visualizations.
+
+---
+
+## Key Insights
+
+1. **Sentiment Regimes Affect Aggregate Profitability**
+   Fear regimes exhibit higher average daily profitability, while Greed regimes show larger extreme drawdowns, indicating stronger tail risk during optimistic markets.
+
+2. **Risk Asymmetry in Greed**
+   Win rates are slightly higher during Greed; however, aggregate profitability is lower due to volatility and large downside extremes. This suggests overconfidence-driven risk amplification.
+
+3. **Frequency-Sentiment Interaction**
+   Frequent traders outperform during Fear regimes, whereas infrequent traders perform better during Greed regimes. Market conditions affect trader archetypes differently.
+
+4. **Exposure Amplifies Sentiment Effects**
+   High-exposure traders generate substantially larger returns, particularly during Greed regimes. However, this also increases sensitivity to drawdowns.
+
+---
+
+## Strategy Recommendations
+
+**1. Regime-Adaptive Trading Frequency**
+Increase trading activity during Fear regimes to capitalize on volatility-driven opportunities. Reduce overtrading during Greed unless using momentum-aligned strategies.
+
+**2. Dynamic Exposure Scaling**
+Scale exposure cautiously during Greed regimes due to amplified tail risk. Allow structured exposure during Fear where aggregate opportunity appears stronger.
+
+---
+
+This analysis demonstrates that sentiment-aware trading adjustments can materially impact performance outcomes. Market regimes do not affect all trader types uniformly, highlighting the importance of behavioral segmentation in strategy design.
