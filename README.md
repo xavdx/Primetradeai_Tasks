@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 3. Open the notebook:
 
-jupyter notebook Trader_Performance_vs_Sentiment.ipynb
+jupyter notebook Primetradeai_Anshav_Desai.ipynb.ipynb
 
 
 ---
