@@ -92,7 +92,7 @@ All analysis steps are documented inside the notebook, including:
 
 
 
-  # Executive Summary:
+# Executive Summary:
 
 ## Methodology
 
