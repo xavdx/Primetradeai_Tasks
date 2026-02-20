@@ -3,7 +3,8 @@
 ## Objective:
 This project analyzes how Bitcoin market sentiment (Fear/Greed Index) relates to trader behavior and performance on Hyperliquid. The goal is to identify sentiment-driven patterns that can inform smarter trading strategies.
 
-## Environment: Developed in Google Colab (Python 3.x). Fully compatible with standard Jupyter Notebook environments.
+## Environment: 
+Developed in Google Colab (Python 3.x). Fully compatible with standard Jupyter Notebook environments.
 ---
 
 ## Methodology:
