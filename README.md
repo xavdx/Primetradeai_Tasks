@@ -53,10 +53,10 @@ We evaluated:
 
 ## Strategy Recommendations:
 
-### Strategy 1= Regime-Adaptive Frequency
+### Strategy 1- Regime-Adaptive Frequency
 Increase trading activity during Fear regimes; reduce overtrading during Greed unless strategy is momentum-based.
 
-### Strategy 2= Dynamic Exposure Scaling
+### Strategy 2- Dynamic Exposure Scaling
 Scale exposure cautiously during Greed due to amplified tail risk. Allow structured exposure during Fear where volatility-driven opportunity is higher.
 
 ---
