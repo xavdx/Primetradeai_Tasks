@@ -1,11 +1,11 @@
 # Trader Performance vs Market Sentiment Analysis
 
-## Objective
+## Objective:
 This project analyzes how Bitcoin market sentiment (Fear/Greed Index) relates to trader behavior and performance on Hyperliquid. The goal is to identify sentiment-driven patterns that can inform smarter trading strategies.
 
 ---
 
-## Methodology
+## Methodology:
 
 ### 1. Data Preparation
 - Loaded Fear/Greed Index dataset and Hyperliquid trader dataset.
@@ -35,7 +35,7 @@ We evaluated:
 
 ---
 
-## Key Insights
+## Key Insights:
 
 1. **Regime-Level Profitability Shift**  
    Fear regimes exhibit higher average daily profitability, while Greed regimes show larger extreme drawdowns.
@@ -51,17 +51,17 @@ We evaluated:
 
 ---
 
-## Strategy Recommendations
+## Strategy Recommendations:
 
-### Strategy 1 — Regime-Adaptive Frequency
+### Strategy 1= Regime-Adaptive Frequency
 Increase trading activity during Fear regimes; reduce overtrading during Greed unless strategy is momentum-based.
 
-### Strategy 2 — Dynamic Exposure Scaling
+### Strategy 2= Dynamic Exposure Scaling
 Scale exposure cautiously during Greed due to amplified tail risk. Allow structured exposure during Fear where volatility-driven opportunity is higher.
 
 ---
 
-## How to Run
+## How to Run:
 
 1. Clone the repository: git clone https://github.com/xavdx/Primetradeai_Tasks.git
 
@@ -78,7 +78,7 @@ jupyter notebook Trader_Performance_vs_Sentiment.ipynb
 
 ---
 
-## Reproducibility
+## Reproducibility:
 
 All analysis steps are documented inside the notebook, including:
 - Data cleaning
